@@ -1,0 +1,18 @@
+<!-- TODO: reference groundsource and see how to not need to include this 
+boilerplate on every page -->
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
+<body>
+  <script type="text/javascript" src="/assets/javascripts/bundle.js" charset="utf-8"></script>
+  <div class="frame">
+    {% include menu.html %}
+    <div class="main">
+      <div class="main__inner"></div>
+    </div>
+  </div>
+</body>
