@@ -62,6 +62,16 @@ a {
 }
 
 .main__inner {
-  background-color: purple;
   height: 100%;
+}
+
+.image {
+  display: inline-block;
+  margin-right: 22px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  // TODO: create aspect ratio field for images, so that it can be set by the user
+  width: $frame-height * .77;
 }
