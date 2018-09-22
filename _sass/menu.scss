@@ -1,0 +1,38 @@
+$color-active: red;
+
+.site-link {
+  text-decoration: none;
+  color: black;
+  font-size: .8em;
+  line-height: 1.6;
+}
+
+.container-photography {
+  .site-link--photography {
+    color: $color-active;
+  }
+}
+
+.container-collage {
+  .site-link--collage {
+    color: $color-active;
+  }
+}
+
+.container-sculpture {
+  .site-link--sculpture {
+    color: $color-active;
+  }
+}
+
+.container-cv {
+  .site-link--cv {
+    color: $color-active;
+  }
+}
+
+.container-contact {
+  .site-link--contact {
+    color: $color-active;
+  }
+}
