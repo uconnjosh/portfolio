@@ -9,12 +9,18 @@ boilerplate on every page -->
   </head>
 <body>
   <script type="text/javascript" src="/assets/javascripts/bundle.js" charset="utf-8"></script>
-  <div class="frame">
+  <div
+    class="frame"
+    style="height: {{ page.frameHeight }};"
+  >
     {% include menu.html %}
     <div class="main">
       <div class="main__inner">
         {% for photo in site.photography %}
-          <div class="image" style="background-image: url('{{ photo.src }}')"></div>
+          <div
+            class="image" 
+            style="background-image: url('{{ photo.src }}'); width: calc({{ page.frameHeight }} * {{ photo.aspectRatio }});"
+          ></div>
         {% endfor %}
       </div>
     </div>

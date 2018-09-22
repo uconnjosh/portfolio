@@ -27,13 +27,13 @@ a {
 
 .frame {
   position: absolute;
-  height: $frame-height;
   margin: 10vh 0;
 }
 
 .menu {
   position: fixed;
-  height: $frame-height;
+  // TODO: switch to height of frame?
+  height: 100%;
   margin: 0px 10px 10px 50px;
 }
 
@@ -72,6 +72,4 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
-  // TODO: create aspect ratio field for images, so that it can be set by the user
-  width: $frame-height * .77;
 }
