@@ -1,5 +1,3 @@
-<!-- TODO: reference groundsource and see how to not need to include this 
-boilerplate on every page -->
 <!doctype html>
 <html>
   <head>
@@ -20,7 +18,7 @@ boilerplate on every page -->
           {% for photo in site.photography %}
             <div
               class="image" 
-              style="background-image: url('{{ photo.src }}'); width: calc({{ page.frameHeight }} * {{ photo.aspectRatio }});"
+              style="background-image: url('{{ photo.src }}'); width: calc({{ page.frameHeight }} * {{ photo.aspect_ratio }});"
             ></div>
           {% endfor %}
         </div>
