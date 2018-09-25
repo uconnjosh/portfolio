@@ -15,4 +15,5 @@ fields:
   config:
     required: true
 pages:
+- _collages/fun.md
 - _photography/tiger.md
