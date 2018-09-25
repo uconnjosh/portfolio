@@ -14,3 +14,5 @@ fields:
   label: Aspect Ratio
   config:
     required: true
+pages:
+- _photography/tiger.md
