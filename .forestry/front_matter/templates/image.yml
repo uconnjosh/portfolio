@@ -1,0 +1,19 @@
+---
+label: Image
+hide_body: false
+is_partial: false
+fields:
+- type: file
+  label: Image
+  name: src
+- type: text
+  label: Title
+  name: title
+- type: number
+  name: aspect_ratio
+  label: Aspect Ratio
+  config:
+    required: true
+pages:
+- _collages/fun.md
+- _photography/tiger.md
