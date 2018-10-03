@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+<body>
+  <script type="text/javascript" src="assets/javascripts/bundle.js" charset="utf-8"></script>
+  <div class="container-collage">
+    <div
+      class="frame"
+      style="height: {{ page.frameHeight }};"
+    >
+      {% include menu.html %}
+      <div class="main">
+        <div class="main__inner">
+          {% for photo in site.photography %}
+            <div
+              class="image" 
+              style="background-image: url('{{ photo.src }}'); width: calc({{ page.frameHeight }} * {{ photo.aspect_ratio }});"
+            ></div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
