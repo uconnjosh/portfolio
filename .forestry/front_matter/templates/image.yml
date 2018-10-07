@@ -15,5 +15,6 @@ fields:
   config:
     required: true
 pages:
+- _collages/keith-haring.md
 - _collages/fun.md
 - _photography/tiger.md
