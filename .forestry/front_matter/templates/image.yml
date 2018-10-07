@@ -15,6 +15,7 @@ fields:
   config:
     required: true
 pages:
+- _photography/grand-canyon.md
 - _sculptures/david.md
 - _sculptures/gertrude-vanderbilt.md
 - _collages/art-poot.md
