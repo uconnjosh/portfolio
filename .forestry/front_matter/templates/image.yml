@@ -15,6 +15,7 @@ fields:
   config:
     required: true
 pages:
+- _photography/epcot.md
 - _photography/grand-canyon.md
 - _sculptures/david.md
 - _sculptures/gertrude-vanderbilt.md
